@@ -5,7 +5,6 @@ color [] colarray = { color(6, 36, 77), color(15, 55, 109),
 int counter = 0;
 PVector center;
 PGraphics off;
-PGraphics tri;
 int shapes = 25;
 int alpha =200;
 float weight=16;
