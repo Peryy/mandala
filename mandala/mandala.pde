@@ -1,5 +1,3 @@
-
-
 color [] colarray = { color(6, 36, 77), color(15, 55, 109), 
   color(44, 84, 138), color(93, 123, 164), color(136, 163, 199) };
 int counter = 0;
@@ -21,9 +19,8 @@ void setup()
   ellipseMode(CENTER);
   rectMode(CENTER);
   off = createGraphics(width, height);
-  drawRandomShapes(shapes);
   for (int i=0; i<18; i++) {
-    drawCenteredShape(2);
+    drawCenteredShape(1);
   }
 }
 
@@ -33,13 +30,6 @@ void draw()
   image(off, 0, 0, width, height);
 }
 
-void drawRandomShapes(int count)
-{
-  for (int i = 0; i < count; i++)
-  {
-    drawCenteredShape(1);
-  }
-}
 
 void drawCenteredShape(int type)
 {
