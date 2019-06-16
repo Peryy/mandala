@@ -10,7 +10,7 @@ float weight=16;
 void setup()
 {
   size(1000, 1000);
-  blendMode(DIFFERENCE);   
+  //blendMode(DIFFERENCE);   
   stroke(0);
   randomSeed(0);
   center = new PVector(width/2, height/2);
